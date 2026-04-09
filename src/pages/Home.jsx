@@ -83,7 +83,7 @@ export default function Home() {
               <span className="block text-4xl md:text-5xl mt-1 text-gray-200">& CONVEYOR SPECIALIST</span>
             </h1>
             <p className="text-gray-300 text-lg leading-relaxed mb-8 max-w-xl font-body">
-              Orac Systems is Zimbabwe's leading engineering company specialising in conveyor systems, wear resistant lining, plant maintenance and heavy industry engineering. Serving mining, manufacturing and agro-processing sectors since 2003.
+                Partsgate Engineering is Zimbabwe's leading engineering company specialising in conveyor systems, wear resistant lining, plant maintenance and heavy industry engineering. Serving mining, manufacturing and agro-processing sectors since 2003.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link to="/our-services" className="btn-primary flex items-center gap-2">
@@ -137,7 +137,7 @@ export default function Home() {
                 Zimbabwe's Premier Heavy Industry Engineering Company
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4 font-body">
-                Orac Systems (Handon Enterprises Pvt Ltd) is a wholly owned Zimbabwean engineering company incorporated in May 2003. With over twenty years of experience in engineering service provision, we supply and serve the mining, manufacturing, power generation, construction and agro-processing sectors.
+                Partsgate Engineering (Handon Enterprises Pvt Ltd) is a wholly owned Zimbabwean engineering company incorporated in May 2003. With over twenty years of experience in engineering service provision, we supply and serve the mining, manufacturing, power generation, construction and agro-processing sectors.
               </p>
               <p className="text-gray-600 leading-relaxed mb-8 font-body">
                 We specialise in the provision of engineering designs, manufacture and construction of heavy industries and mining plants including conveyor systems, steelworks, pipeline equipment and associated installations. Our highly qualified team has served major clients including Zimplats, Mimosa, Unki, Metallon Gold, Lafarge Zimbabwe and many more.

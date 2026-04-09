@@ -8,7 +8,7 @@ const services = [
     title: 'Hot & Cold Vulcanizing',
     img: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80',
     content: [
-      'Orac Systems specializes in hot and cold vulcanizing, both steel and plied conveyor belting and general service around the conveyor.',
+      'Partsgate Engineering specializes in hot and cold vulcanizing, both steel and plied conveyor belting and general service around the conveyor.',
       'We have state-of-the-art vulcanizing equipment which can take up to 1500mm splice length.',
       'Our experienced team ensures high-quality splicing results that extend the life of your conveyor belts and minimize downtime during repairs.',
     ],
@@ -21,7 +21,7 @@ const services = [
     content: [
       'When a metal is immersed in liquid which contains water or corrosive substances, the problem of corrosion occurs. Rubber Lining solves the problem.',
       'Rubber Lining is an application method used to protect multiple types of systems by lining corrosion and abrasion-resistant rubber upon the surface or inside of pipes and tanks.',
-      'Our Rubber Lining is applied by hand by Orac Systems' , 'experienced staff', 'ensuring a durable finished product.',
+      'Our Rubber Lining is applied by hand by Partsgate Engineering' , 'experienced staff', 'ensuring a durable finished product.',
     ],
     points: [
       'Excellent resistance to corrosive and abrasive chemicals and materials — acids, alkalis, salt water, slurries, sand, shot blast media, crushed rock',
@@ -36,7 +36,7 @@ const services = [
     title: 'Manufacturing of Idler Rollers and Frames',
     img: 'https://images.unsplash.com/photo-1567361808960-dec9e8b003bc?w=800&q=80',
     content: [
-      'Orac Systems is the leading conveyor specialist manufacturer and supplier of high quality conveyor idlers of all sizes, suitable for the mining industry, heavy manufacturing industry, agro processing, food industry and construction industry.',
+      'Partsgate Engineering is the leading conveyor specialist manufacturer and supplier of high quality conveyor idlers of all sizes, suitable for the mining industry, heavy manufacturing industry, agro processing, food industry and construction industry.',
       'We manufacture troughing and return idlers fitted with high quality bearings and seals for extended life.',
       'We also offer a full package of conveyor system structural designs, manufacturing, installations and maintenance of conveyor idlers, conveyor frames, conveyor belts and hot splicing that enables our customers to do one-stop shopping.',
     ],
@@ -48,8 +48,8 @@ const services = [
     img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
     content: [
       'Protecting your plant and infrastructure from abrasion, chemicals, acid/alkali and heat will extend the lifetime of your asset, reduce maintenance and downtime from damage.',
-      'Orac Systems provides solutions through wear resistance lining services including Ceramic Lining.',
-      'Orac Systems specializes in Ceramic Lining solutions that extend the life of your equipment, thereby keeping your systems at a maximum operational level.',
+      'Partsgate Engineering provides solutions through wear resistance lining services including Ceramic Lining.',
+      'Partsgate Engineering specializes in Ceramic Lining solutions that extend the life of your equipment, thereby keeping your systems at a maximum operational level.',
       'Our industrial workhorse, and most frequently specified wear material, is our alumina ceramic tile — a fine-grain, high-grade alumina made from exceptionally pure and uniformly controlled alpha aluminium oxide.',
     ],
     points: [],
@@ -59,9 +59,9 @@ const services = [
     title: 'Plant Maintenance Services',
     img: 'https://images.unsplash.com/photo-1581092334651-ddf19e8abe6c?w=800&q=80',
     content: [
-      'Orac Systems offers Engineering Maintenance Services, Predictive/Preventive Building Maintenance, and Capital Planning to enable practical and effective asset management partnerships.',
+      'Partsgate Engineering offers Engineering Maintenance Services, Predictive/Preventive Building Maintenance, and Capital Planning to enable practical and effective asset management partnerships.',
       'We have a highly-qualified team of mechanical personnel who have vast experience and expertise in different industrial and mining environments.',
-      'Orac Systems has been involved in some of the key companies in Zimbabwe such as Zimplats, Mimosa, Unki, Metallon Gold, Lafarge Zimbabwe and many more.',
+      'Partsgate Engineering has been involved in some of the key companies in Zimbabwe such as Zimplats, Mimosa, Unki, Metallon Gold, Lafarge Zimbabwe and many more.',
     ],
     points: [],
   },
@@ -70,9 +70,9 @@ const services = [
     title: 'Conveyor Systems Design, Manufacture, Installations & Maintenance',
     img: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80',
     content: [
-      'Orac Systems is a leading company in Conveyor System Management and Maintenance. We have a trained and experienced staff of field technicians who have taken part in new project installations, routine service inspections, conveyor belt maintenance contract work, Hot/Cold Splicing, and 24-hour emergency services.',
+      'Partsgate Engineering is a leading company in Conveyor System Management and Maintenance. We have a trained and experienced staff of field technicians who have taken part in new project installations, routine service inspections, conveyor belt maintenance contract work, Hot/Cold Splicing, and 24-hour emergency services.',
       'We can supply all types of conveyor belting, Rubber or PVC, depending on the customer\'s requirement.',
-      'Orac Systems offers on-site belt surveys and audits to assess your exact conveyor conditions requirements. We then provide you with a comprehensive report with recommendations to assist you to plan for maintenance works.',
+      'Partsgate Engineering offers on-site belt surveys and audits to assess your exact conveyor conditions requirements. We then provide you with a comprehensive report with recommendations to assist you to plan for maintenance works.',
     ],
     points: [
       'Conveyor Systems Design & Manufacturing',

@@ -87,7 +87,7 @@ export default function Projects() {
           <p className="section-title">Our Work</p>
           <h2 className="section-heading mb-4">Engineering Projects Across Zimbabwe</h2>
           <p className="text-gray-500 font-body leading-relaxed">
-            With over two decades of experience, Orac Systems has completed hundreds of engineering projects for Zimbabwe's leading mining, manufacturing and industrial companies.
+            With over two decades of experience, Partsgate Engineering has completed hundreds of engineering projects for Zimbabwe's leading mining, manufacturing and industrial companies.
           </p>
         </div>
       </section>

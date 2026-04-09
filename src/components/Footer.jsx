@@ -29,20 +29,20 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-1 mb-4">
-              <div className="bg-primary text-white font-heading font-black text-2xl px-3 py-1 leading-none">ORAC</div>
+              <div className="bg-primary text-white font-heading font-black text-2xl px-3 py-1 leading-none">PARTSGATE</div>
               <div className="bg-dark-2 text-white font-heading font-medium text-xs px-2 py-1 leading-none tracking-widest uppercase">
-                SYSTEMS
+                Engineering
               </div>
             </div>
             <p className="text-sm leading-relaxed mb-5">
               Your Engineering, Maintenance, Wear Resistant Lining and Conveyor Specialist. Serving Zimbabwe's heavy industry and mining sectors since 2003.
             </p>
             <div className="flex items-center gap-3">
-              <a href="http://www.facebook.com/oracsystems" target="_blank" rel="noopener noreferrer"
+              <a href="http://www.facebook.com/partsgatengineering" target="_blank" rel="noopener noreferrer"
                 className="w-9 h-9 bg-dark-2 flex items-center justify-center hover:bg-primary transition-colors rounded-sm">
                 <Facebook size={16} />
               </a>
-              <a href="https://x.com/OracSystems" target="_blank" rel="noopener noreferrer"
+              <a href="https://x.com/PartsgatEngineering" target="_blank" rel="noopener noreferrer"
                 className="w-9 h-9 bg-dark-2 flex items-center justify-center hover:bg-primary transition-colors rounded-sm">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.253 5.622 5.912-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
@@ -111,8 +111,8 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <Mail size={16} className="text-primary mt-0.5 flex-shrink-0" />
-                <a href="mailto:sales@oracsystems.co.zw" className="hover:text-primary transition-colors">
-                  sales@oracsystems.co.zw
+                <a href="mailto:sales@partsgatengineering.co.zw" className="hover:text-primary transition-colors">
+                  sales@partsgatengineering.co.zw
                 </a>
               </li>
             </ul>
@@ -123,8 +123,8 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-dark-2">
         <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row items-center justify-between text-xs text-gray-500 gap-2">
-          <span>© {new Date().getFullYear()} Orac Systems. All rights reserved.</span>
-          <span>Handon Enterprises (Pvt) Ltd t/a Orac Systems</span>
+          <span>© {new Date().getFullYear()} Partsgate Engineering. All rights reserved.</span>
+          <span>Handon Enterprises (Pvt) Ltd t/a Partsgate Engineering</span>
         </div>
       </div>
     </footer>

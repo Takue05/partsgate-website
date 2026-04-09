@@ -26,9 +26,9 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3 flex-shrink-0">
           <div className="flex items-center">
-            <div className="bg-primary text-white font-heading font-black text-2xl px-3 py-1 leading-none">ORAC</div>
+            <div className="bg-primary text-white font-heading font-black text-2xl px-3 py-1 leading-none">PARTSGATE</div>
             <div className="bg-dark text-white font-heading font-medium text-xs px-2 py-1 leading-none tracking-widest uppercase ml-0.5">
-              SYSTEMS
+              Engineering
             </div>
           </div>
         </Link>

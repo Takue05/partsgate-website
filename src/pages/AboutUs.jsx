@@ -30,7 +30,7 @@ const values = [
 ]
 
 const milestones = [
-  { year: '2003', event: 'Incorporated as Handon Enterprises (Pvt) Ltd, trading as Orac Systems' },
+  { year: '2003', event: 'Incorporated as Handon Enterprises (Pvt) Ltd, trading as Partsgate Engineering' },
   { year: '2008', event: 'Expanded into full conveyor systems design, manufacture and installation' },
   { year: '2012', event: 'Added Ceramic and Rubber Wear Resistant Lining as core service offerings' },
   { year: '2015', event: 'Became an established supplier to Zimplats, Mimosa and Unki Mine' },
@@ -53,13 +53,13 @@ export default function AboutUs() {
                 Zimbabwe's Leading Engineering Specialist
               </h2>
               <p className="text-gray-600 leading-relaxed mb-5 font-body text-lg">
-                Handon Enterprises (Pvt) Ltd, trading as <strong>Orac Systems</strong>, is a dynamic wholly owned Zimbabwean engineering company incorporated under the Companies Act [Chapter 24:03] in May 2003.
+                Handon Enterprises (Pvt) Ltd, trading as <strong>Partsgate Engineering</strong>, is a dynamic wholly owned Zimbabwean engineering company incorporated under the Companies Act [Chapter 24:03] in May 2003.
               </p>
               <p className="text-gray-600 leading-relaxed mb-5 font-body">
                 The company has over twenty years of experience in engineering service provision and supplies to mining, manufacturing, power generation, construction and agro-processing sectors.
               </p>
               <p className="text-gray-600 leading-relaxed mb-8 font-body">
-                Orac Systems specialises in the provision of engineering designs, manufacture and construction of heavy industries and mining plants which includes conveyor systems, steelworks, pipeline equipment and other associated installations.
+                Partsgate Engineering specialises in the provision of engineering designs, manufacture and construction of heavy industries and mining plants which includes conveyor systems, steelworks, pipeline equipment and other associated installations.
               </p>
               <div className="space-y-3 mb-8">
                 {[
@@ -85,7 +85,7 @@ export default function AboutUs() {
               <div className="aspect-[4/3] overflow-hidden shadow-2xl">
                 <img
                   src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80"
-                  alt="Orac Systems engineering facility"
+                  alt="Partsgate Engineering engineering facility"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -135,7 +135,7 @@ export default function AboutUs() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-14">
             <p className="section-title">Our Promise</p>
-            <h2 className="section-heading">Why Choose Orac Systems</h2>
+            <h2 className="section-heading">Why Choose Partsgate Engineering</h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {values.map(({ title, desc, icon, color }) => (
