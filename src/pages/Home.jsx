@@ -64,10 +64,9 @@ export default function Home() {
         {/* Background */}
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1600&q=80')" }}
+          style={{ backgroundImage: "url('/images/hero/image.png')" }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-dark/95 via-dark/80 to-dark/40" />
-        <div className="absolute inset-0 hero-pattern" />
         {/* Left accent */}
         <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-primary" />
 
