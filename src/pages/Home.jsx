@@ -5,27 +5,27 @@ const services = [
   {
     title: 'Pulley / Drum Lagging',
     desc: 'Protecting pulleys from premature failure while increasing friction between pulley and belt for optimal torque transfer.',
-    img: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&q=80',
+    img: '/images/services/pulley-lagging.png',
   },
   {
     title: 'Plant Maintenance Service',
     desc: 'Engineering Maintenance Services, Predictive/Preventive Building Maintenance, and Capital Planning for effective asset management.',
-    img: 'https://images.unsplash.com/photo-1581092334651-ddf19e8abe6c?w=600&q=80',
+    img: '/images/home/plant-maintance.png',
   },
   {
     title: 'Hot & Cold Vulcanizing',
     desc: 'State-of-the-art vulcanizing equipment handling up to 1500mm splice length for steel and plied conveyor belting.',
-    img: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80',
+    img: '/images/home/vulcanizing.png',
   },
   {
     title: 'Conveyor Systems',
     desc: 'Design, manufacture, installation and maintenance. Conveyor belt management, splicing, audits and 24-hour emergency services.',
-    img: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80',
+    img: '/images/home/conveyor-systems.png',
   },
   {
     title: 'Wear Resistant Lining – Rubber',
     desc: 'Rubber lining for excellent resistance to corrosive and abrasive chemicals. Noise reduction, thermal insulation and product protection.',
-    img: 'https://images.unsplash.com/photo-1565791380713-1756b9a05343?w=600&q=80',
+    img: '/images/home/rubber-linning.png',
   },
   {
     title: 'Manufacturing of Idler Rollers',
@@ -45,10 +45,10 @@ const services = [
 ]
 
 const stats = [
-  { value: '20+', label: 'Years Experience', icon: Clock },
-  { value: '500+', label: 'Projects Completed', icon: CheckCircle },
-  { value: '200+', label: 'Expert Staff', icon: Users },
-  { value: '50+', label: 'Industry Clients', icon: Award },
+  { value: '12+', label: 'Years Experience', icon: Clock },
+  { value: '50+', label: 'Projects Completed', icon: CheckCircle },
+  { value: '10+', label: 'Expert Staff', icon: Users },
+  { value: '20+', label: 'Industry Clients', icon: Award },
 ]
 
 const clients = [
@@ -82,7 +82,7 @@ export default function Home() {
               <span className="block text-4xl md:text-5xl mt-1 text-gray-200">& CONVEYOR SPECIALIST</span>
             </h1>
             <p className="text-gray-300 text-lg leading-relaxed mb-8 max-w-xl font-body">
-                Partsgate Engineering is Zimbabwe's leading engineering company specialising in conveyor systems, wear resistant lining, plant maintenance and heavy industry engineering. Serving mining, manufacturing and agro-processing sectors since 2003.
+                Partsgate Engineering is Zimbabwe's leading engineering company specialising in conveyor systems, wear resistant lining, plant maintenance and heavy industry engineering. Serving mining, manufacturing and agro-processing sectors since 2013.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link to="/our-services" className="btn-primary flex items-center gap-2">
@@ -136,7 +136,7 @@ export default function Home() {
                 Zimbabwe's Premier Heavy Industry Engineering Company
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4 font-body">
-                Partsgate Engineering (Handon Enterprises Pvt Ltd) is a wholly owned Zimbabwean engineering company incorporated in May 2003. With over twenty years of experience in engineering service provision, we supply and serve the mining, manufacturing, power generation, construction and agro-processing sectors.
+                Partsgate Engineering (Handon Enterprises Pvt Ltd) is a wholly owned Zimbabwean engineering company incorporated in May 2013. With over twenty years of experience in engineering service provision, we supply and serve the mining, manufacturing, power generation, construction and agro-processing sectors.
               </p>
               <p className="text-gray-600 leading-relaxed mb-8 font-body">
                 We specialise in the provision of engineering designs, manufacture and construction of heavy industries and mining plants including conveyor systems, steelworks, pipeline equipment and associated installations. Our highly qualified team has served major clients including Zimplats, Mimosa, Unki, Metallon Gold, Lafarge Zimbabwe and many more.
@@ -163,7 +163,7 @@ export default function Home() {
             <div className="relative">
               <div className="aspect-[4/3] overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+                  src="/images/home/image-1.png"
                   alt="Engineering facility"
                   className="w-full h-full object-cover"
                 />
@@ -173,7 +173,7 @@ export default function Home() {
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-dark/5 border border-dark/10 -z-10" />
               {/* Badge */}
               <div className="absolute -bottom-6 left-6 bg-primary text-white px-6 py-4 shadow-xl">
-                <div className="font-heading font-black text-3xl leading-none">20+</div>
+                <div className="font-heading font-black text-3xl leading-none">10+</div>
                 <div className="font-heading font-semibold text-xs uppercase tracking-widest mt-1">Years of Excellence</div>
               </div>
             </div>
