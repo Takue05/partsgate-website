@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
+import Logo from './Logo'
 
 const navItems = [
   { label: 'Home', path: '/' },
@@ -24,13 +25,8 @@ export default function Navbar() {
     <header className={`sticky top-0 z-50 bg-white transition-shadow duration-300 ${scrolled ? 'shadow-lg' : 'shadow-sm'}`}>
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-20">
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-3 flex-shrink-0">
-          <div className="flex items-center">
-            <div className="bg-primary text-white font-heading font-black text-2xl px-3 py-1 leading-none">PARTSGATE</div>
-            <div className="bg-dark text-white font-heading font-medium text-xs px-2 py-1 leading-none tracking-widest uppercase ml-0.5">
-              Engineering
-            </div>
-          </div>
+        <Link to="/" className="flex items-center flex-shrink-0">
+          <Logo size="md" variant="light" />
         </Link>
 
         {/* Desktop nav */}

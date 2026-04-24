@@ -47,9 +47,9 @@ export default function ContactUs() {
                 <div>
                   <h4 className="font-heading font-bold text-base uppercase tracking-wide mb-2">Our Address</h4>
                   <p className="text-gray-300 text-sm font-body leading-relaxed group-hover:text-white/90 transition-colors">
-                    Unit No 32E Kenmark Cres<br />
-                    Bluffhill Industrial Park<br />
-                    Harare, Zimbabwe
+                    6 Richwell Ave<br />
+                    Mabelreign, Harare<br />
+                    Zimbabwe
                   </p>
                 </div>
               </div>
@@ -61,10 +61,9 @@ export default function ContactUs() {
                 <div>
                   <h4 className="font-heading font-bold text-base uppercase tracking-wide mb-2">Phone Numbers</h4>
                   <div className="text-gray-300 text-sm font-body space-y-1 group-hover:text-white/90 transition-colors">
-                    <a href="tel:+263777851134" className="block hover:text-white">+263 777 851 134</a>
-                    <a href="tel:+263773474208" className="block hover:text-white">+263 773 474 208</a>
-                    <a href="tel:+263242310086" className="block hover:text-white">+263 242 310086/88</a>
-                    <a href="tel:+2638644087595" className="block hover:text-white">+263 8644 087595</a>
+                    <a href="tel:+263777477333" className="block hover:text-white">+263777 477 333</a>
+                    <a href="tel:+263716067473" className="block hover:text-white">+263716 067 473</a>
+                    <a href="tel:+263788870454" className="block hover:text-white">+263788 870 454</a>
                   </div>
                 </div>
               </div>
@@ -76,10 +75,10 @@ export default function ContactUs() {
                 <div>
                   <h4 className="font-heading font-bold text-base uppercase tracking-wide mb-2">Email</h4>
                   <a
-                    href="mailto:sales@partsgatepngineering.co.zw"
+                    href="mailto:sales@partsgate.co.zw"
                     className="text-gray-300 text-sm font-body hover:text-white group-hover:text-white/90 transition-colors"
                   >
-                    sales@partsgatepngineering.co.zw
+                    sales@partsgate.co.zw
                   </a>
                 </div>
               </div>
@@ -88,11 +87,11 @@ export default function ContactUs() {
               <div className="bg-primary p-6">
                 <h4 className="font-heading font-bold text-white text-base uppercase tracking-wide mb-4">Follow Us</h4>
                 <div className="flex gap-3">
-                  <a href="http://www.facebook.com/partsgatepngineering" target="_blank" rel="noopener noreferrer"
+                  <a href="https://www.facebook.com/partsgate.Company" target="_blank" rel="noopener noreferrer"
                     className="w-10 h-10 bg-white/20 flex items-center justify-center text-white hover:bg-white hover:text-primary transition-colors">
                     <Facebook size={18} />
                   </a>
-                  <a href="https://x.com/partsgatepngineering" target="_blank" rel="noopener noreferrer"
+                  <a href="https://x.com/partsgate" target="_blank" rel="noopener noreferrer"
                     className="w-10 h-10 bg-white/20 flex items-center justify-center text-white hover:bg-white hover:text-primary transition-colors">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                       <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.253 5.622 5.912-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
@@ -218,7 +217,7 @@ export default function ContactUs() {
       <section className="h-80 bg-gray-200 relative overflow-hidden">
         <iframe
           title="Partsgate Engineering Location"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3799.3!2d30.972!3d-17.8252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDQ5JzMwLjciUyAzMMKwNTgnMTkuMiJF!5e0!3m2!1sen!2szw!4v1620000000000!5m2!1sen!2szw"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3799.3!2d30.9977073!3d-17.8064468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931a5e87c6c27dd%3A0x38d87ec7ab177f8a!2s6+Richwell+Ave%2C+Harare!5e0!3m2!1sen!2szw!4v1620000000000!5m2!1sen!2szw"
           width="100%"
           height="100%"
           style={{ border: 0 }}

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
-import { ArrowRight, CheckCircle, Users, Award, Clock, Wrench } from 'lucide-react'
+import { ArrowRight, CheckCircle, Users, Award, Clock, Wrench, Shield, FileText, Tag } from 'lucide-react'
+import Logo from '../components/Logo'
 
 const services = [
   {
@@ -28,24 +29,24 @@ const services = [
     img: '/images/home/rubber-linning.png',
   },
   {
-    title: 'Manufacturing of Idler Rollers',
+    title: 'Supplier of Idler Rollers',
     desc: 'High quality conveyor idlers of all sizes for mining, heavy manufacturing, agro processing, food and construction industries.',
-    img: 'https://images.unsplash.com/photo-1567361808960-dec9e8b003bc?w=600&q=80',
+    img: '/images/home/idler-rollers.png',
   },
   {
     title: 'Wear Resistant Lining – Ceramic',
     desc: 'Alumina ceramic tile lining solutions that extend equipment life, keeping your systems at maximum operational level.',
-    img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80',
+    img: '/images/home/ceramic-lining.png',
   },
   {
     title: 'Shaft Laser Alignment',
     desc: 'Precision laser alignment services that significantly reduce operating and maintenance costs. Protecting machinery from misalignment damage.',
-    img: 'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=600&q=80',
+    img: '/images/home/shaft-laser-1.png',
   },
 ]
 
 const stats = [
-  { value: '12+', label: 'Years Experience', icon: Clock },
+  { value: '20+', label: 'Years Experience', icon: Clock },
   { value: '50+', label: 'Projects Completed', icon: CheckCircle },
   { value: '10+', label: 'Expert Staff', icon: Users },
   { value: '20+', label: 'Industry Clients', icon: Award },
@@ -72,6 +73,9 @@ export default function Home() {
 
         <div className="relative max-w-7xl mx-auto px-4 py-24">
           <div className="max-w-2xl">
+            <div className="mb-8">
+              <Logo size="lg" variant="light" />
+            </div>
             <div className="inline-flex items-center gap-2 bg-primary/20 border border-primary/40 text-primary px-4 py-2 text-xs font-heading font-semibold uppercase tracking-widest mb-6">
               <Wrench size={14} />
               Zimbabwe's Engineering Leaders
@@ -82,7 +86,7 @@ export default function Home() {
               <span className="block text-4xl md:text-5xl mt-1 text-gray-200">& CONVEYOR SPECIALIST</span>
             </h1>
             <p className="text-gray-300 text-lg leading-relaxed mb-8 max-w-xl font-body">
-                Partsgate Engineering is Zimbabwe's leading engineering company specialising in conveyor systems, wear resistant lining, plant maintenance and heavy industry engineering. Serving mining, manufacturing and agro-processing sectors since 2013.
+                Partsgate Engineering is Zimbabwe's leading engineering company specialising in conveyor systems, wear resistant lining, plant maintenance and heavy industry engineering. Serving mining, manufacturing and agro-processing sectors since 2003.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link to="/our-services" className="btn-primary flex items-center gap-2">
@@ -173,7 +177,7 @@ export default function Home() {
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-dark/5 border border-dark/10 -z-10" />
               {/* Badge */}
               <div className="absolute -bottom-6 left-6 bg-primary text-white px-6 py-4 shadow-xl">
-                <div className="font-heading font-black text-3xl leading-none">10+</div>
+                <div className="font-heading font-black text-3xl leading-none">20+</div>
                 <div className="font-heading font-semibold text-xs uppercase tracking-widest mt-1">Years of Excellence</div>
               </div>
             </div>
@@ -226,7 +230,7 @@ export default function Home() {
         <div className="absolute inset-0 hero-pattern opacity-20" />
         <div className="absolute right-0 top-0 w-1/3 h-full opacity-10">
           <img
-            src="https://images.unsplash.com/photo-1565791380713-1756b9a05343?w=800&q=80"
+            src="/images/home/img-2.png"
             alt=""
             className="w-full h-full object-cover"
           />
@@ -242,27 +246,27 @@ export default function Home() {
                 {
                   title: 'Reliable Service',
                   desc: 'Our trained field technicians provide 24-hour emergency services and routine inspections to keep your operations running.',
-                  icon: '✓'
+                  Icon: Shield,
                 },
                 {
                   title: 'Certified Mechanics',
                   desc: 'Our team of certified and experienced mechanics have worked across mining, manufacturing and industrial environments.',
-                  icon: '★'
+                  Icon: Award,
                 },
                 {
                   title: 'No Hidden Costs',
                   desc: 'Transparent pricing with comprehensive reports and recommendations. What you see is what you get.',
-                  icon: '◈'
+                  Icon: FileText,
                 },
                 {
                   title: 'Affordable Prices',
                   desc: 'Competitive pricing without compromising quality. We work to increase productivity and cost-effectiveness on the market.',
-                  icon: '$'
+                  Icon: Tag,
                 },
-              ].map(({ title, desc, icon }) => (
+              ].map(({ title, desc, Icon }) => (
                 <div key={title} className="bg-dark-2 border border-dark-3 p-6 hover:border-primary transition-colors group">
-                  <div className="w-10 h-10 bg-primary flex items-center justify-center text-white font-heading font-black text-lg mb-4 group-hover:scale-110 transition-transform">
-                    {icon}
+                  <div className="w-10 h-10 bg-primary flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                    <Icon size={20} className="text-white" />
                   </div>
                   <h3 className="font-heading font-bold text-white text-xl mb-2">{title}</h3>
                   <p className="text-gray-400 text-sm leading-relaxed font-body">{desc}</p>
@@ -302,7 +306,7 @@ export default function Home() {
             <Link to="/contact-us" className="bg-white text-primary font-heading font-bold uppercase tracking-wide px-8 py-3 text-sm hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
               Contact Us <ArrowRight size={16} />
             </Link>
-            <a href="tel:+263777851134" className="border-2 border-white text-white font-heading font-bold uppercase tracking-wide px-8 py-3 text-sm hover:bg-white hover:text-primary transition-colors inline-flex items-center gap-2">
+            <a href="tel:+263777477333" className="border-2 border-white text-white font-heading font-bold uppercase tracking-wide px-8 py-3 text-sm hover:bg-white hover:text-primary transition-colors inline-flex items-center gap-2">
               Call Now
             </a>
           </div>

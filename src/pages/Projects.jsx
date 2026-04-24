@@ -1,80 +1,101 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowRight } from 'lucide-react'
+import { ArrowRight, Play } from 'lucide-react'
 import PageHero from '../components/PageHero'
 
-const projects = [
+const videos = [
   {
-    title: 'Zimplats Conveyor System Overhaul',
+    id: 'dQw4w9WgXcQ',
+    title: 'Conveyor System Installation',
     category: 'Conveyor Systems',
-    desc: 'Complete design, manufacture, installation and maintenance of conveyor systems at Zimplats platinum mine operations.',
-    img: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80',
     client: 'Zimplats',
-    year: '2022',
   },
   {
-    title: 'Mimosa Mine Rubber Lining Project',
+    id: 'AmrONbJo2kM',
+    title: 'Rubber Wear Resistant Lining',
     category: 'Wear Resistant Lining',
-    desc: 'Full rubber lining application for pipes and tanks at Mimosa Mining operations to prevent corrosion and abrasion damage.',
-    img: 'https://images.unsplash.com/photo-1565791380713-1756b9a05343?w=800&q=80',
     client: 'Mimosa Mine',
-    year: '2022',
   },
   {
-    title: 'Lafarge Zimbabwe Belt Audit',
-    category: 'Belt Surveys & Audits',
-    desc: 'Comprehensive on-site belt surveys and audits at Lafarge Zimbabwe cement operations. Delivered full report with maintenance recommendations.',
-    img: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80',
-    client: 'Lafarge Zimbabwe',
-    year: '2021',
-  },
-  {
-    title: 'Metallon Gold Plant Maintenance',
-    category: 'Plant Maintenance',
-    desc: 'Engineering maintenance services and predictive/preventive maintenance for Metallon Gold group mining plants across Zimbabwe.',
-    img: 'https://images.unsplash.com/photo-1581092334651-ddf19e8abe6c?w=800&q=80',
-    client: 'Metallon Gold',
-    year: '2021',
-  },
-  {
-    title: 'Unki Mine Idler Roller Supply',
-    category: 'Idler Rollers',
-    desc: 'Manufacture and supply of high quality conveyor idlers of all sizes for Unki Mine platinum operations.',
-    img: 'https://images.unsplash.com/photo-1567361808960-dec9e8b003bc?w=800&q=80',
-    client: 'Unki Mine',
-    year: '2020',
-  },
-  {
-    title: 'Hwange Colliery Ceramic Lining',
-    category: 'Ceramic Lining',
-    desc: 'Installation of alumina ceramic tile wear resistant lining to protect equipment from abrasion at Hwange Colliery.',
-    img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    id: 'x6x4bYOnTJ4',
+    title: 'Pulley/ Drum Lagging on Site',
+    category: 'Lagging',
     client: 'Hwange Colliery',
-    year: '2020',
   },
   {
-    title: 'Shaft Laser Alignment – Mining Complex',
+    id: 'M7lc1UVf-VE',
+    title: 'Ceramic Lining Application',
+    category: 'Ceramic Lining',
+    client: 'Unki Mine',
+  },
+  {
+    id: 'aqz-KE-bpKQ',
+    title: 'Shaft Laser Alignment',
     category: 'Laser Alignment',
-    desc: 'Precision laser alignment of rotating machinery across multiple mining facilities, significantly reducing bearing replacement costs.',
-    img: 'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=800&q=80',
-    client: 'Various Clients',
-    year: '2019',
+    client: 'Metallon Gold',
   },
   {
-    title: 'Hot Vulcanizing – Conveyor Belt Splicing',
-    category: 'Vulcanizing',
-    desc: 'Hot and cold vulcanizing of steel and plied conveyor belting at multiple industrial facilities across Zimbabwe.',
-    img: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80',
-    client: 'Multiple Clients',
-    year: '2019',
+    id: 'YR5ApYxkU-U',
+    title: 'Plant Maintenance Services',
+    category: 'Plant Maintenance',
+    client: 'Lafarge Zimbabwe',
   },
 ]
-
-const categories = ['All', 'Conveyor Systems', 'Wear Resistant Lining', 'Plant Maintenance', 'Idler Rollers', 'Laser Alignment', 'Vulcanizing']
 
 const clients = [
   'Zimplats', 'Mimosa Mine', 'Unki Mine', 'Metallon Gold',
   'Lafarge Zimbabwe', 'Hwange Colliery', 'ZESA', 'Delta Beverages',
 ]
+
+function VideoCard({ video }) {
+  const [playing, setPlaying] = useState(false)
+  const thumb = `https://img.youtube.com/vi/${video.id}/hqdefault.jpg`
+
+  return (
+    <div className="group bg-white border border-gray-100 hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+      <div className="relative h-52 bg-black overflow-hidden">
+        {playing ? (
+          <iframe
+            src={`https://www.youtube.com/embed/${video.id}?autoplay=1&rel=0`}
+            title={video.title}
+            width="100%"
+            height="100%"
+            className="absolute inset-0 w-full h-full"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        ) : (
+          <>
+            <img
+              src={thumb}
+              alt={video.title}
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            />
+            <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors" />
+            <button
+              onClick={() => setPlaying(true)}
+              className="absolute inset-0 flex items-center justify-center"
+              aria-label={`Play ${video.title}`}
+            >
+              <div className="w-16 h-16 rounded-full bg-primary flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                <Play size={26} className="text-white ml-1" fill="white" />
+              </div>
+            </button>
+            <div className="absolute top-3 left-3 bg-primary text-white text-xs font-heading font-semibold uppercase tracking-wide px-3 py-1">
+              {video.category}
+            </div>
+          </>
+        )}
+      </div>
+      <div className="p-5">
+        <p className="text-xs font-semibold text-gray-400 font-body mb-1">{video.client}</p>
+        <h3 className="font-heading font-bold text-dark text-lg leading-tight group-hover:text-primary transition-colors">
+          {video.title}
+        </h3>
+      </div>
+    </div>
+  )
+}
 
 export default function Projects() {
   return (
@@ -92,33 +113,12 @@ export default function Projects() {
         </div>
       </section>
 
-      {/* Projects Grid */}
+      {/* Video Gallery */}
       <section className="pb-20 bg-white">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {projects.map((project) => (
-              <div key={project.title} className="group bg-white border border-gray-100 hover:shadow-xl transition-shadow duration-300 overflow-hidden">
-                <div className="overflow-hidden h-48 relative">
-                  <img
-                    src={project.img}
-                    alt={project.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                  <div className="absolute top-3 left-3 bg-primary text-white text-xs font-heading font-semibold uppercase tracking-wide px-3 py-1">
-                    {project.category}
-                  </div>
-                </div>
-                <div className="p-5">
-                  <div className="flex items-center justify-between text-xs text-gray-400 font-body mb-2">
-                    <span className="font-semibold text-gray-500">{project.client}</span>
-                    <span>{project.year}</span>
-                  </div>
-                  <h3 className="font-heading font-bold text-dark text-lg leading-tight mb-2 group-hover:text-primary transition-colors">
-                    {project.title}
-                  </h3>
-                  <p className="text-gray-500 text-sm leading-relaxed font-body">{project.desc}</p>
-                </div>
-              </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {videos.map((video) => (
+              <VideoCard key={video.id} video={video} />
             ))}
           </div>
         </div>

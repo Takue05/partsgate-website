@@ -6,7 +6,7 @@ const services = [
   {
     id: 'vulcanizing',
     title: 'Hot & Cold Vulcanizing',
-    img: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80',
+    img: '/images/home/vulcanizing.png',
     content: [
       'Partsgate Engineering specializes in hot and cold vulcanizing, both steel and plied conveyor belting and general service around the conveyor.',
       'We have state-of-the-art vulcanizing equipment which can take up to 1500mm splice length.',
@@ -17,7 +17,7 @@ const services = [
   {
     id: 'rubber-lining',
     title: 'Rubber Wear Resistant Lining',
-    img: 'https://images.unsplash.com/photo-1565791380713-1756b9a05343?w=800&q=80',
+    img: '/images/home/rubber-linning.png',
     content: [
       'When a metal is immersed in liquid which contains water or corrosive substances, the problem of corrosion occurs. Rubber Lining solves the problem.',
       'Rubber Lining is an application method used to protect multiple types of systems by lining corrosion and abrasion-resistant rubber upon the surface or inside of pipes and tanks.',
@@ -33,8 +33,8 @@ const services = [
   },
   {
     id: 'idler-rollers',
-    title: 'Manufacturing of Idler Rollers and Frames',
-    img: 'https://images.unsplash.com/photo-1567361808960-dec9e8b003bc?w=800&q=80',
+    title: 'Supplying of Idler Rollers and Frames',
+    img: '/images/home/idler-rollers.png',
     content: [
       'Partsgate Engineering is the leading conveyor specialist manufacturer and supplier of high quality conveyor idlers of all sizes, suitable for the mining industry, heavy manufacturing industry, agro processing, food industry and construction industry.',
       'We manufacture troughing and return idlers fitted with high quality bearings and seals for extended life.',
@@ -45,7 +45,7 @@ const services = [
   {
     id: 'ceramic-lining',
     title: 'Wear Resistant Lining – Ceramic',
-    img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    img: '/images/home/ceramic-lining.png',
     content: [
       'Protecting your plant and infrastructure from abrasion, chemicals, acid/alkali and heat will extend the lifetime of your asset, reduce maintenance and downtime from damage.',
       'Partsgate Engineering provides solutions through wear resistance lining services including Ceramic Lining.',
@@ -57,7 +57,7 @@ const services = [
   {
     id: 'plant-maintenance',
     title: 'Plant Maintenance Services',
-    img: 'https://images.unsplash.com/photo-1581092334651-ddf19e8abe6c?w=800&q=80',
+    img: '/images/home/plant-maintance.png',
     content: [
       'Partsgate Engineering offers Engineering Maintenance Services, Predictive/Preventive Building Maintenance, and Capital Planning to enable practical and effective asset management partnerships.',
       'We have a highly-qualified team of mechanical personnel who have vast experience and expertise in different industrial and mining environments.',
@@ -68,7 +68,7 @@ const services = [
   {
     id: 'conveyor-systems',
     title: 'Conveyor Systems Design, Manufacture, Installations & Maintenance',
-    img: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80',
+    img: '/images/home/conveyor-systems.png',
     content: [
       'Partsgate Engineering is a leading company in Conveyor System Management and Maintenance. We have a trained and experienced staff of field technicians who have taken part in new project installations, routine service inspections, conveyor belt maintenance contract work, Hot/Cold Splicing, and 24-hour emergency services.',
       'We can supply all types of conveyor belting, Rubber or PVC, depending on the customer\'s requirement.',
@@ -89,7 +89,7 @@ const services = [
   {
     id: 'shaft-alignment',
     title: 'Shaft Laser Alignment Services',
-    img: 'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=800&q=80',
+    img: '/images/home/shaft-laser-1.png',
     content: [
       'It\'s a known fact – all rotating machinery is susceptible to misalignment. If you\'re still using rulers and dial indicators to ensure your rotating machinery is properly aligned, you could be losing thousands of dollars per year in replacement bearing costs, hours of unnecessary repair time, and crippling unplanned downtime.',
       'Correctly aligned and regularly controlled machines significantly reduce operating and maintenance costs.',
@@ -100,7 +100,7 @@ const services = [
   {
     id: 'drum-lagging',
     title: 'Pulley / Drum Lagging',
-    img: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80',
+    img: '/images/services/pulley-lagging.png',
     content: [
       'There are a few basic reasons for the application of lagging to both driven and non-driven pulleys. Lagging is applied to nearly all conveyors to address at least one (if not all) of the basic points below.',
       'In addition, lagging should be applied in a way that the lagging itself does not wear prematurely due to abrasion, or delaminating from the pulley, as well as cause belt wear.',
